@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- SEO purpose -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple working clock">
+    <meta name="keywords" content="clock, glass-morphism, neumorphism">
+    <title>Clock | Coding Guy</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <!-- Clock Face  -->
+    <div class="container">
+        <div class="clock-face">
+
+            <!-- Each timing Digits/values-->
+            <span class="time line right" id = "one"></span>
+            <span class="time line right" id = "two"></span>
+            <span class="time main" id = "three">3</span>
+            <span class="time line right" id = "four"></span>
+            <span class="time line right" id = "five"></span>
+            <span class="time main" id = "six">6</span>
+            <span class="time line left" id = "seven"></span>
+            <span class="time line left" id = "eight"></span>
+            <span class="time main" id = "nine">9</span>
+            <span class="time line left" id = "ten"></span>
+            <span class="time line left" id = "eleven"></span>
+            <span class="time main" id = "twelve">12</span>
+
+            <!-- Clock hands -->
+            
+            <div class="hand hours-hand" id = "hour"></div>
+            <div class="hand minutes-hand"id = "minutes" ></div>
+            <div class="hand seconds-hand" id = "seconds"></div>
+            <div class="mid-point"></div>
+        </div>
+    </div>
+
+    <!--Linked Script  -->
+
+    <script src="./JavaScript/tick.js"></script>
+</body>
+</html>
