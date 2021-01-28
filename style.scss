@@ -17,7 +17,10 @@ body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+
+    // You can use any background Images
     background: url('../Images/a.jpg');
+    // background: url('../Images/b.jpg')
     background-size: cover;
     backdrop-filter: blur(5px);
 
